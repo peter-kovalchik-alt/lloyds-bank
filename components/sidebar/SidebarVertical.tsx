@@ -2,7 +2,7 @@
 import { sidebarData } from "@/public/data/sidebarData";
 import logoDark from "@/public/images/logo-with-text-dark.png";
 import logoWhite from "@/public/images/logo-with-text.png";
-import barclaysLogo from "@/public/images/barclays_logo.png";
+import lloydsLogo from "@/public/images/lloyds-logo.png";
 import useWindowSize from "@/utils/useWindowSize";
 import { IconX } from "@tabler/icons-react";
 import { useTheme } from "next-themes";
@@ -85,7 +85,7 @@ const SidebarVertical = ({
       <div className={`p-4 xl:p-6 xxxl:p-[31px]`}>
         <div className="flex justify-between items-center">
           <Link href="/">
-            <Image width={174} height={38} src={barclaysLogo} alt="logo" />
+            <Image width={174} height={38} src={lloydsLogo} alt="logo" />
           </Link>
           <button onClick={() => setSidebar(false)} className="xl:hidden">
             <IconX />

@@ -64,7 +64,7 @@ const PaymentAccount = () => {
         short: "EUR",
       },
       bank: {
-        name: "Barclays Bank",
+        name: "Lloyds Bank",
         country: "UK",
       },
       status: user.status,

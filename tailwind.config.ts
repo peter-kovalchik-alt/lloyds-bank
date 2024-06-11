@@ -11,8 +11,8 @@ const config: Config = {
     extend: {
       colors: {
         transparent: "transparent",
-        primary: "#00aeef",
-        secondary1: "#4371E9",
+        primary: "#006a4d",
+        secondary1: "#006a4d",
         secondary2: "#FF6161",
         secondary3: "#BD7B00",
         n0: "#FFFFFF",
@@ -36,7 +36,7 @@ const config: Config = {
         n900: "#0B1323",
         bg3: "#23262B",
         bg4: "#1D1E24",
-        lightbg1: "#00aeef",
+        lightbg1: "#006a4d",
         lightbg2: "#F6F8FE",
       },
       screens: {

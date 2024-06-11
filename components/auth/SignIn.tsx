@@ -3,8 +3,8 @@ import { IconEye, IconEyeOff } from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import barclaysLogo from "@/public/images/barclays_logo.png";
-import barclaysBuilding from "@/public/images/bacrlays-building.jpg";
+import lloydsLogo from "@/public/images/lloyds-logo.png";
+import lloydsBuilding from "@/public/images/lloyds-building.jpg";
 import { signIn, useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -83,12 +83,12 @@ const SignIn = () => {
   return (
     <>
       <div className="flex justify-center py-10">
-        <Image width={174} height={38} src={barclaysLogo} alt="logo" />
+        <Image width={174} height={38} src={lloydsLogo} alt="logo" />
       </div>
       <div className="box p-3 md:p-4 xl:p-6 grid grid-cols-12 gap-6 items-center">
         <form onSubmit={onSubmit} className="col-span-12 lg:col-span-7">
           <div className="box bg-primary/5 dark:bg-bg3 lg:p-6 xl:p-8 border border-n30 dark:border-n500">
-            <h3 className="h3 mb-4">Welcome to Barclays Bank!</h3>
+            <h3 className="h3 mb-4">Welcome to Lloyds Bank!</h3>
             <p className="md:mb-6 md:pb-6 mb-4 pb-4 bb-dashed text-sm md:text-base">
               Sign in to your account and join us
             </p>
@@ -162,7 +162,7 @@ const SignIn = () => {
           </div>
         </form>
         <div className="col-span-12 lg:col-span-5">
-          <Image src={barclaysBuilding} alt="img" width={533} height={560} />
+          <Image src={lloydsBuilding} alt="img" width={533} height={560} />
         </div>
       </div>
     </>

@@ -49,7 +49,7 @@ export const transactionsData: Transaction[] = [
       short: "EUR",
     },
     bank: {
-      name: "Barclays Bank",
+      name: "Lloyds Bank",
       country: "UK",
     },
     status: TransactionStatus.Frozen,
@@ -83,7 +83,7 @@ const PaymentAccount = () => {
         short: "EUR",
       },
       bank: {
-        name: "Barclays Bank",
+        name: "Lloyds Bank",
         country: "UK",
       },
       status: TransactionStatus.Active,
@@ -99,7 +99,7 @@ const PaymentAccount = () => {
         short: "EUR",
       },
       bank: {
-        name: "Barclays Bank",
+        name: "Lloyds Bank",
         country: "UK",
       },
       status: user.status as TransactionStatus,
