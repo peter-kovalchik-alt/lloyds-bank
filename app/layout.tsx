@@ -15,16 +15,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Bankhub - Nextjs tailwindcss FinTech and Banking Dashboard",
-  description: "Bankhub - Nextjs tailwindcss FinTech and Banking Dashboard",
-  keywords: [
-    "Next.js",
-    "React",
-    "JavaScript",
-    "Dashboard",
-    "Fintech",
-    "Banking",
-  ],
+  title: "Lloyds Bank",
+  description: "Lloyds Bank",
+  keywords: ["Lloyds Bank"],
 };
 
 export default function RootLayout({

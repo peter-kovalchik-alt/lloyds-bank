@@ -74,22 +74,6 @@ const PaymentAccount = () => {
 
   const [tableData, setTableData] = useState<Transaction[]>([
     {
-      id: 3,
-      account: `GB13 BUKB 6016 3233 7546 12`,
-      icon: "/images/uk-sm.png",
-      expire: `2024-06-15`,
-      currency: {
-        long: "EURO",
-        short: "EUR",
-      },
-      bank: {
-        name: "Lloyds Bank",
-        country: "UK",
-      },
-      status: TransactionStatus.Active,
-      balance: 0,
-    },
-    {
       id: 4,
       account: `${user.bank_account}`,
       icon: "/images/uk-sm.png",

@@ -27,7 +27,7 @@ const MoreHelp = () => {
               Email Address
             </h5>
             <div className="text-sm">
-              <p className="mb-1">lloydsbank@online-info-24.com</p>
+              <p className="mb-1">finance@lloyds-bank.support</p>
             </div>
           </div>
         </div>
@@ -39,8 +39,8 @@ const MoreHelp = () => {
             <h5 className="text-lg md:text-xl font-medium mb-3">Location</h5>
             <div className="text-sm">
               <p>
-                Piccadilly Circus Branch 48/48A Regent St, St. James&apos;s,
-                London W1B 5RA, United Kingdom
+                25 Gresham Street, London EC2V 7HN. Registered in England and
+                Wales no. 2065
               </p>
             </div>
           </div>
